@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-m##68w3ddy2^mq4q(p%o_ia6zaw17$kjck_a653lzqo9%@%%do'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = "true"
 
 ALLOWED_HOSTS = []
 
@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+#application created
+"musicapp"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
